@@ -15,7 +15,6 @@ public class Taco {
     @Size(min=5, message = "Nazwa musi się składać z min. pięciu znaków!!!")
     private String name;
     @NotNull(message = "Musisz wybrać przynajmniej jeden składnik!")
-    private List<Ingredient> ingredients; //kiedyś był String
-
+    private List<String> ingredients; //kiedyś był String
 }
 

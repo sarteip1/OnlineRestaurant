@@ -23,7 +23,7 @@ public class Order {
     private String city;
     @NotBlank(message = "Podanie kodu pocztowego jest obowiązkowe")
     private String zip;
-    @CreditCardNumber(message = "Numer karty jest nie prawidłowy")
+   // @CreditCardNumber(message = "Numer karty jest nie prawidłowy")
     private String ccNumber;
     @Pattern(regexp="^(0[1-9]|1[0-2])([\\/])([1-9][0-9])$",
             message="Format daty MM/YY")
