@@ -1,3 +1,3 @@
 # OnlineRestaurant
-Aplikacja webowa
-Nauka Springa
+Projekt tworzony do nauki podstaw Spring Boota.
+Aplikacja Webowa
